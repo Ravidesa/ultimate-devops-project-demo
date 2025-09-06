@@ -53,5 +53,15 @@ server.bindAsync(`0.0.0.0:${process.env['PAYMENT_PORT']}`, grpc.ServerCredential
   logger.info(`payment gRPC server started on port ${port}`)
 })
 
+
+
+
+
+
+
+
+
+
+
 process.once('SIGINT', closeGracefully)
 process.once('SIGTERM', closeGracefully)
