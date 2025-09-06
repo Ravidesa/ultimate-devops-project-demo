@@ -56,12 +56,5 @@ server.bindAsync(`0.0.0.0:${process.env['PAYMENT_PORT']}`, grpc.ServerCredential
 
 
 
-
-
-
-
-
-
-
 process.once('SIGINT', closeGracefully)
 process.once('SIGTERM', closeGracefully)
